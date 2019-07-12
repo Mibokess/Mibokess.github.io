@@ -599,8 +599,8 @@ canvas {
   margin-top: 6rem;
 }
 
-.max-w-sm {
-  max-width: 24rem;
+.max-w-xxs {
+  max-width: 15rem;
 }
 
 .overflow-auto {
@@ -705,6 +705,10 @@ canvas {
 }
 
 @media (min-width: 768px) {
+
+  .md\:max-w-sm {
+    max-width: 24rem;
+  }
 
   .md\:w-1\/5 {
     width: 20%;
